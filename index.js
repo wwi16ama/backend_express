@@ -1,8 +1,11 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => {
-    let obj = { key: "value"}
+app.get('/greeting', (req, res) => {
+    let obj = { 
+        id: 1,
+        content: "was"
+    }
     res.send(obj)
 });
 
