@@ -1,10 +1,10 @@
 # backend_express
 
-eine möglichste simple REST-API mit express.js.
+Eine möglichste simple REST-API mit express.js.
 
 ## liefert
 
-unter dem Pfad `greeting` folgendes JSON:
+Unter dem Pfad `greeting` folgendes JSON:
 
 ```JSON
 {
@@ -13,9 +13,9 @@ unter dem Pfad `greeting` folgendes JSON:
 }
 ```
 
-## was noch fehlt
+## Was noch fehlt
 
-Datenbankanbindung.
+Datenbankanbindung...
 
  - MongoDB
  - CouchDB
